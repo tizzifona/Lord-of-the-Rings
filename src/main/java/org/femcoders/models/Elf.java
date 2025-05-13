@@ -16,6 +16,6 @@ public class Elf extends Character implements Fighter {
 
     @Override
     public void attack() {
-        System.out.println(getName() + " attacks with a " + bow);
+        System.out.println(getName() + " attacks with a " + bow + ".");
     }
 }
