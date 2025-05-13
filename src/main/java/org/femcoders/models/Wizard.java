@@ -1,9 +1,9 @@
 package org.femcoders.models;
 
 public class Wizard extends Character implements Fighter {
-    private String magic;
+    private final String magic;
 
-    public Wizard(String name, int age, String race, String magic) {
+    public Wizard(String name, int age, String magic) {
         super(name, age, "Wizard");
         this.magic = magic;
     }
