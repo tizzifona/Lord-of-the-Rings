@@ -2,7 +2,7 @@ package org.femcoders.models;
 
 public class Dwarf extends  Character implements Fighter{
 
-    public Dwarf(String name, int age, String race) {
+    public Dwarf(String name, int age) {
         super(name, age, "Dwarf");
     }
 

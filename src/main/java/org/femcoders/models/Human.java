@@ -1,7 +1,7 @@
 package org.femcoders.models;
 
 public class Human extends Character implements Fighter {
-    public Human(String name, int age, String race) {
+    public Human(String name, int age) {
         super(name, age, "Human");
     }
 

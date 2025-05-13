@@ -1,9 +1,10 @@
 package org.femcoders.models;
 
-public class Elf extends Character implements Fighter {
-    private String bow;
 
-    public Elf(String name, int age, String race, String bow) {
+public class Elf extends Character implements Fighter {
+    private final String bow;
+
+    public Elf(String name, int age, String bow) {
         super(name, age, "Elf");
         this.bow = bow;
     }
