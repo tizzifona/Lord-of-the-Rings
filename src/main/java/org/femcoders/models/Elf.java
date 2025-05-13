@@ -4,7 +4,7 @@ public class Elf extends Character implements Fighter {
     private String bow;
 
     public Elf(String name, int age, String race, String bow) {
-        super(name, age, race);
+        super(name, age, "Elf");
         this.bow = bow;
     }
 
